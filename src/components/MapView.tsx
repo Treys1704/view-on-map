@@ -30,7 +30,7 @@ export default function MapView() {
 
   return (
     <div className="fixed inset-0 flex items-center justify-center">
-      <AnimatePresence>
+      <AnimatePresence mode="wait">
         <motion.div
           key="map-container"
           initial={collapsedSize}
